@@ -1,0 +1,12 @@
+node_modules
+.git
+.gitignore
+.env.local
+.env*.local
+DESKTOP.INI
+Thumbs.db
+.DS_Store
+*.pem
+.next
+build
+dist

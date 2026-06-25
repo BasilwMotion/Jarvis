@@ -10,6 +10,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    minify: 'terser',
+    // use esbuild (bundled) as the minifier to avoid needing terser
+    minify: 'esbuild',
   },
 });
